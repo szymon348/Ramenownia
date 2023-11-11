@@ -195,13 +195,13 @@ namespace Ramenownia
 
         private void Dane_TextChange(object sender, TextChangedEventArgs e)
         {
-            if(dane.Text != string.Empty)
+            if(dane.Text == string.Empty)
             {
-                Add.IsEnabled = true;
+                Add.IsEnabled = false;
             }
             else
             {
-                Add.IsEnabled = false;
+                Add.IsEnabled = true;
             }
         }
     }
