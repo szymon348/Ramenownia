@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chank\\Desktop\\Ramenownia\\Ramenownia\\Ramenownia.csproj": {}
+    "C:\\Users\\chank\\Documents\\GitHub\\Ramenownia\\Ramenownia\\Ramenownia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chank\\Desktop\\Ramenownia\\Ramenownia\\Ramenownia.csproj": {
+    "C:\\Users\\chank\\Documents\\GitHub\\Ramenownia\\Ramenownia\\Ramenownia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chank\\Desktop\\Ramenownia\\Ramenownia\\Ramenownia.csproj",
+        "projectUniqueName": "C:\\Users\\chank\\Documents\\GitHub\\Ramenownia\\Ramenownia\\Ramenownia.csproj",
         "projectName": "Ramenownia",
-        "projectPath": "C:\\Users\\chank\\Desktop\\Ramenownia\\Ramenownia\\Ramenownia.csproj",
+        "projectPath": "C:\\Users\\chank\\Documents\\GitHub\\Ramenownia\\Ramenownia\\Ramenownia.csproj",
         "packagesPath": "C:\\Users\\chank\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chank\\Desktop\\Ramenownia\\Ramenownia\\obj\\",
+        "outputPath": "C:\\Users\\chank\\Documents\\GitHub\\Ramenownia\\Ramenownia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chank\\AppData\\Roaming\\NuGet\\NuGet.Config",

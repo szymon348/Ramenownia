@@ -42,7 +42,7 @@ namespace Ramenownia
             Rozmiar_default.IsChecked = true;
             Spicy_default.IsChecked = true;
         }
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void DodajZamowienie(object sender, RoutedEventArgs e)
         {
             try
             {
@@ -113,10 +113,10 @@ namespace Ramenownia
                 koncowy += "RAZEM DO ZAPLATY " + cena;
                 Output.Text = koncowy;
             }
-            catch(Exception ex)
+            catch(FormatException)
             {
                 info.Foreground = Brushes.Red;
-                info.Text = ex.Message;
+                info.Text = "Musisz podać liczbę!";
             }
 
 
@@ -193,9 +193,8 @@ namespace Ramenownia
             wakame_vis.Visibility = Visibility.Hidden;
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void Dane_TextChange(object sender, TextChangedEventArgs e)
         {
-            // Nie wiedzialem czy tylko o to chodzi jako "Kontrola wpisania nazwiska"
             if(dane.Text != string.Empty)
             {
                 Add.IsEnabled = true;
